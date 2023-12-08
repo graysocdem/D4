@@ -1,0 +1,21 @@
+- Timestamp borde egentligen inte bestämmas av frontend eftersom den då kan manipulera konversationshistoriken.
+
+Timestampen för ett givet meddelande skapas nu av server.js. 
+
+- Jag kan inte köra testerna:
+Error: Cannot find module 'supertest'
+Require stack:
+/Users/.../D4/Projekt/tests/friendTest.js
+Jag har försökt att installera supertest manuellt i både server och frontend men vet inte varför modulen inte hittas. 
+Har jag missat något steg eller måste jag köra koden i en viss ordning för att testerna ska kunna köras?
+
+Nu löst, man måste skriva npm install i /tests/ också.
+
+
+- Test för ogiltiga meddelanden ser ut att saknas.
+
+Den kollar nu efter för långa meddelanden och meddelanden utan längd.
+
+- Test för att posta på andras sidor ser ut att saknas.
+
+friendTest.js testar nu att posta på vänner och icke-vänners sidor.

@@ -1,0 +1,28 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 7vh;
+    height: 70vh;
+    width: 70vw;
+    background: #fff;
+    padding-bottom: 30px;
+}
+
+.friend-container {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 40px;
+    gap: 200px;
+    overflow-y: scroll;
+}
+
+.friend-container input {
+    margin-left: 0.4vw;
+}
+
+.sub-container {
+    width: 30%;
+    min-height: 60px;
+}

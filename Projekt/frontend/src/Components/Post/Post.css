@@ -1,0 +1,27 @@
+.post-container {
+    width: 550px;
+    min-height: 150px;
+    border: 5px;
+    color: #797979;
+    background: #eaeaea;    
+    border-radius: 6px;
+    padding-left: 10px;
+}
+
+.name {
+    font-weight: 700;
+    min-height: 22.5px;
+    border: 5px;
+}
+
+.message {
+    font-size: 22px;
+    min-height: 105px;
+    border: 5px;
+}
+
+.time {
+    font-weight: 700;
+    min-height: 22.5px;
+    border: 5px;
+}
